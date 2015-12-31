@@ -20,5 +20,5 @@ install:
 build: off
 
 test_script:
-  - "%PYTHON%\\Scripts\\nosetests"
+  - "nosetests"
 
