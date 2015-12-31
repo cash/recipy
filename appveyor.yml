@@ -20,5 +20,5 @@ install:
 build: off
 
 test_script:
-  - "nosetests"
+  - "%PYTHON%\\python.exe setup.py nosetests"
 
